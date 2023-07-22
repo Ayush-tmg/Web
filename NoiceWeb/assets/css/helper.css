@@ -1,0 +1,19 @@
+/* .bg-theme{
+    background-color: rgb(30, 78, 209);
+} */
+
+.theme{
+    color: rgb(149, 81, 255);
+}
+
+.bg-none{
+    background-color: transparent;
+}
+
+.bg-gradient{
+    background: linear-gradient(90deg, rgb(11, 125, 255) 20%, rgb(0, 68, 255) 60%, rgb(76, 17, 185));
+}
+.card-title{
+    padding: 1.25rem;
+}
+

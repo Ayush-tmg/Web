@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <form>
+            <label>First Name</label>
+            <input type="text" id="fname">
+            <br><br>
+            <label>Last Name</label>
+            <input type="text" id="lname">
+            <br><br>
+            <label>Email</label>
+            <input type="email" id="email">
+            <br><br>
+            <label>Phone no</label>
+            <input type="text" id="phone">
+            <br><br>
+            <button id="btnSubmit" onclick="submitForm()">Submit</button>
+        </form>
+
+        <script>
+            function submitForm(){
+                let f = document.getElementById("fname").value,
+                e = document.getElementById("email").value,
+                l = document.getElementById("lname").value,
+                p = document.getElementById("phone").value;
+
+                if(f == "" || l == "" || e == "" || p == "")
+                {
+                    alert("Please enter all value");
+                }
+                
+                else if (f == "Ayush" && l =="Tamang" && e == "ayush@gmail.com" && p == "987654321"){
+                    alert("Login Successfull");
+                }
+                
+                else{
+                    alert("Error");
+                }
+            }
+            // var button = document.getElementById("btnSubmit");
+            // button.addEventListener("click", submit);
+        </script>
+    </body>
+</html>

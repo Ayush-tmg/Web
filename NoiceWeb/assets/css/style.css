@@ -1,0 +1,89 @@
+.hero-main{
+    height: 70vh;
+}
+
+
+.hero-btm-curve{
+    background: linear-gradient(90deg, rgb(11, 125, 255) 20%, rgb(0, 68, 255) 60%, rgb(76, 17, 185));
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    height: 10vh;
+}
+
+.main .card{
+    border: none;
+}
+
+
+/* to prevent cascading: order media query from large to small */
+.hero-img{
+    width: 500px;
+}
+@media screen and (max-width:1200px){
+    .hero-img{
+        width: 450px;
+    }
+}
+@media screen and (max-width:992px){
+    .hero-img{
+        width: 250px;
+    }
+}
+@media screen and (max-width:767px){
+    .hero-img-col{
+        display: none;
+    }
+}
+    
+nav{
+    max-width: 1000px;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+
+blockquote{
+    border-style: solid;
+    border-width: 10px;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-color: purple;
+    padding-left: 3rem;
+}
+
+.feature .card{
+    box-shadow: 2px 10px 15px gray;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feature .card .card-text{
+    font-size: 1.25rem;
+}
+
+.feature .card:hover{
+    box-shadow: 2px 10px 45px gray;
+    cursor: pointer;
+}
+.feature .card:active{
+    box-shadow: 2px 10px 45px gray;
+    background-color: rgb(219, 219, 219);
+    cursor: pointer;
+}
+.footer{
+    color: white;
+    margin-top: 5rem;
+    background-color: rgb(31, 31, 31);
+    padding: 3rem;
+}
+
+footer a{
+    color: rgb(149, 81, 255);
+
+}
+
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
