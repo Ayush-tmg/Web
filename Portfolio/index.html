@@ -8,19 +8,19 @@
 </head>
 <body>
     <div id="top"></div>
+    <nav>
+        <img src="images/logo.png" class="logo">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <hr>
     <div class="main">
-        <nav>
-            <img src="images/logo.png" class="logo">
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#experience">EXPERIENCE</a></li>
-                <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </nav>
-        <hr>
-        <div class="detel" id="home">
+        <div class="detel">
             <h1>I'm Ayush <span>Tamang</span></h1>
             <p>This is my official portfolio website to show all
                 <br> Details and work experience realated to web development and more.
@@ -35,12 +35,12 @@
     </div>
     <hr>
     <section>
-        <div class="about-img">
+        <div class="about-img" id="about">
             <img src="images/blue-shape.png" class="blue-shape">
             <img src="images/computer.png" class="computer">
         </div>
 
-        <div class="about-content" id="about">
+        <div class="about-content">
             <h1>About Me</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quae minus dolores<br> 
@@ -87,9 +87,9 @@
         </div>
     </section>
     <hr>
-    <section>
+    <section class="skills-sec">
         <div class="skills-content" id="skills">
-            <h1>Skills</h1>
+            <h1>Skills</h1> 
             <div class="skills-img">
                 <ul>
                     <li>Code</li>
@@ -108,6 +108,7 @@
                     <li><img src="images/photo.png" class="photo"></li>
                 </ul>
             </div>
+        </div>
     </section>
     <hr>
     <a href="#top" class="gototop">Top</a>
